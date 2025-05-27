@@ -2,7 +2,7 @@
 interface Operation {
     int operate(int a, int b);
 }
-public class Main {
+public class main {
     public static int execute(int a, int b, Operation op) {
         return op.operate(a, b);
     }
